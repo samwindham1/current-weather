@@ -1,0 +1,64 @@
+// Utilities ----------------
+.border {
+  border: dashed 1px #222;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.content div {
+  // border: dashed 1px #222;
+}
+
+// Element styles -----------
+body {
+  min-width: 350px;
+  min-height: 500px;
+  background-color: #eee;
+  font-family: 'Raleway', sans-serif;
+}
+
+// Class styles ------------
+.title {
+  margin-bottom: 20px;
+
+}
+.location {
+  margin-top: 10px;
+}
+.condition {
+  margin-top: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  .temp-toggle {
+    padding:auto;
+    @media (hover: hover) {
+      &:hover {
+        background:rgba(0,0,0,0.1);
+      }
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .temp-tip {
+      visibility: hidden;
+      clear: both;
+      display: none;
+    }
+  }
+}
+
+// Contatiners -------------
+.content {
+  height: 90vh;
+}
+.footer {
+  height: 60px;
+  padding: 20px 0px;
+  .link {
+    color: #666;
+    margin-left: 4px;
+    z-index:50;
+    font-size:0.9em;
+    vertical-align: middle; 
+  }
+}
+
