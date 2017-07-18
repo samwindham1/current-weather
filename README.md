@@ -1,5 +1,5 @@
 # current_weather
-Find current weather stats at your location
+Find current weather stats at your location.
 
 Implements HTML5 geolocation and Google's geocode API.
 
