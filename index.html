@@ -2,47 +2,46 @@
 <html >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Current Weather</title>
-  
-  
+
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
 
-      <link rel="stylesheet" href="css/style.css">
-
-  
 </head>
 
 <body>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans|Raleway" rel="stylesheet">
 
-<div class="container-fluid">
-  <div class="row d-flex justify-content-center align-items-center content">
-    <div class="col-xl-6 col-lg-8 col-md-10 col-sm-11 text-center">
-      <div class="title">
-        <h1>Current Weather</h1>
-      </div>
-      <div class="location">
-        <h2 class="text"></h2>
-      </div>
-      <div class="condition">
-        <label class="btn temp-toggle" title="Click to toggle between C/F">
-          <h3 class="cond-1"></h3><p class="temp-tip">(click to toggle F/C)</p>
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center align-items-center content">
+      <div class="col-xl-6 col-lg-8 col-md-10 col-sm-11 text-center">
+        <div class="title">
+          <h1>Current Weather</h1>
+        </div>
+        <div class="location">
+          <h2 class="text"></h2>
+        </div>
+        <div class="condition">
+          <label class="btn temp-toggle" title="Click to toggle between C/F">
+            <h3 class="cond-1"></h3><p class="temp-tip">(click to toggle F/C)</p>
           </label>
-        <h3 class="cond-2"></h3>
+          <h3 class="cond-2"></h3>
+        </div>
+      </div>
+    </div>
+    <div class="row footer fixed-bottom">
+      <div class="col-12 center text-center">
+        <span><i class="fa fa-github fa-lg" aria-hidden="true"></i><a href="https://github.com/samwindham1" style="margin-right:50px;" class="link" title="See Sam on Github">Sam Windham</a></span>
+        <span><img src="https://s3.amazonaws.com/freecodecamp/favicons/favicon-32x32.png" height="20" width="20" alt="FCC" class="rounded-circle"/><a href="https://fcc-weather-api.glitch.me/" title="Powered by FreeCodeCamp Weather API" class="link">fcc-api</a></span>
       </div>
     </div>
   </div>
-  <div class="row footer fixed-bottom">
-    <div class="col-12 center text-center">
-      <span><i class="fa fa-github fa-lg" aria-hidden="true"></i><a href="https://github.com/samwindham1" style="margin-right:50px;" class="link" title="See Sam on Github">Sam Windham</a></span>
-      <span><img src="https://s3.amazonaws.com/freecodecamp/favicons/favicon-32x32.png" height="20" width="20" alt="FCC" class="rounded-circle"/><a href="https://fcc-weather-api.glitch.me/" title="Powered by FreeCodeCamp Weather API" class="link">fcc-api</a></span>
-    </div>
-  </div>
-</div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src='https://use.fontawesome.com/ee0b815467.js'></script>
+  <script src='https://use.fontawesome.com/ee0b815467.js'></script>
 
-    <script src="js/index.js"></script>
+  <script src="js/index.js"></script>
 
 </body>
 </html>
